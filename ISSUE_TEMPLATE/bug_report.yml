@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible defect in public code or documentation.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For security vulnerabilities, do not use this public form. Follow SECURITY.md and report privately."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior without including secrets or personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal steps using only systems and data you are authorized to test.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Remove credentials, private keys, wallet phrases, and personal data.

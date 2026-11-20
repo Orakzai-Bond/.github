@@ -1,0 +1,23 @@
+name: Documentation request
+description: Report unclear, missing, or outdated public documentation.
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page, file, or section
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be clarified or corrected?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+  - type: markdown
+    attributes:
+      value: "Do not include credentials, private data, or vulnerability details. See SECURITY.md for private security reporting."

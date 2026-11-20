@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/Orakzai-Bond/.github/security/advisories/new
+    about: Do not report vulnerabilities in public issues; use GitHub private vulnerability reporting or the fallback in SECURITY.md.
+  - name: General project information
+    url: https://orakzaibond.com
+    about: Visit the official website for general information.
